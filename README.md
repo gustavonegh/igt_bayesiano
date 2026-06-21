@@ -1,4 +1,4 @@
-# Estimación Bayesiana: Proyecto IGT-Rioja
+# Estimación Bayesiana: Proyecto IGT
 
 Este repositorio contiene la implementación computacional del trabajo final para la cátedra de Estimación Bayesiana (2026). El proyecto utiliza Inferencia Variacional (ADVI) para estimar la tasa de adopción de una nueva herramienta tecnológica en la Función Judicial de La Rioja.
 
