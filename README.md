@@ -5,7 +5,7 @@ Este repositorio contiene la implementación computacional del trabajo final par
 ## Estructura del Proyecto
 
 * `src/inferencia_igt.py`: Script principal con el modelo bayesiano desarrollado en PyMC.
-* `dashboard_igt.html`: Panel interactivo para la visualización directiva de los escenarios.
+* `index.html`: Panel interactivo para la visualización directiva de los escenarios (Dashboard web).
 * `docs/`: Documentación teórica y marco analítico del proyecto.
 
 ## Requisitos Previos
