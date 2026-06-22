@@ -15,6 +15,22 @@ Para ejecutar el modelo, es necesario contar con Python 3.10+ y crear un entorno
 ## Instalación y Ejecución
 
 1. **Clonar el repositorio y acceder al directorio:**
-   ```bash
-   git clone [https://github.com/gustavonegh/igt_bayesiano.git](https://github.com/gustavonegh/igt_bayesiano.git)
+```bash
+   git clone https://github.com/gustavonegh/igt_bayesiano.git
    cd igt_bayesiano
+```
+
+2. **Crear y activar el entorno virtual:**
+* En macOS/Linux: `python3 -m venv .venv && source .venv/bin/activate`
+* En Windows: `python -m venv .venv` y luego `.venv\Scripts\activate`
+
+3. **Instalar las dependencias:**
+```bash
+pip install pymc matplotlib numpy
+```
+
+4. **Ejecutar las simulaciones:**
+```bash
+python src/inferencia_igt.py
+```
+*Nota: Dentro del script, puede modificar la variable `escenario_elegido` (1, 2 o 3) para procesar las distintas simulaciones de telemetría descritas en el informe.*
